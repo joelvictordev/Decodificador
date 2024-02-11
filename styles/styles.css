@@ -127,6 +127,7 @@ main {
     
     .text-area {
         width: 90%;
+        height: 35%;
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin-right: 1rem;
@@ -134,6 +135,7 @@ main {
     
     .resultado {
         width: 90%;
+        height: 35%;
         margin-left: 0;
         margin-bottom: 1rem;
         margin-top: 1rem;
