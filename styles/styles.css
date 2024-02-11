@@ -111,11 +111,10 @@ main {
         margin: 1%;
     }
 
-    main {
-        width: 98%;
+    .principal {
+        width: 90%;
         flex-direction: column;
-        justify-content: center;
-    }
+        justify-content: center;}
     
     .rodape {
         display: none;
