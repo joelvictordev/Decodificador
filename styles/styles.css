@@ -36,7 +36,7 @@ main {
 
 .resultado {
     background: var(--cor-secundaria);
-    background-image: url(/Decodificador/blob/main/assets/boneco.png);
+    background-image: url(/assets/boneco.png);
     background-position: center;
     background-repeat: no-repeat;
     border: 1px solid var(--cor-primaria);
@@ -107,56 +107,56 @@ main {
 
 @media (max-width: 1000px) {
     .logo {
-        margin-left: 0;
+        margin-left: 1rem;
         padding-top: 1rem;
-        width: 5%;
+        width: 10%;
     }
     
     main {
-        width: 100%;
+        width: 98%;
         margin-bottom: 1rem;
         margin-left: 1rem;
     }
 
     .principal {
-        width: 100%;
+        width: 98%;
         flex-direction: column;
         justify-content: center;
+        margin-right: 2rem;
     }
     
     .text-area {
-        width: 100%;
+        width: 90%;
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin-right: 1rem;
     }
     
     .resultado {
-        width: 100%;
-        margin-left: 1rem;
+        width: 90%;
+        margin-left: 0;
         margin-bottom: 1rem;
         margin-top: 1rem;
         margin-right: 1rem;
     }
 
     .btn {
-        width: 100%;
+        width: 98%;
         margin-top: 1rem;
-        margin-left: 2rem;
+        margin-left: 0;
         margin-right: 2rem;
-        flex-direction: column;
-        justify-content: center;
     }
     
     .btn2 {
-        width: 100%;
+        width: 98%;
         margin-top: 1rem;
-        margin-left: 2rem;
+        margin-left: 0;
         margin-right: 2rem;
     }
 
     .btn-copiar {
-        margin-left: 0;
+        margin-left: 2.2rem;
+        margin-right: 0;
     }
     
     .rodape {
