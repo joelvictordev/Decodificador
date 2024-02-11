@@ -112,7 +112,7 @@ main {
     }
 
     main {
-        flex-direction: collum;
+        flex-direction: column;
         justify-content: center;
     }
     
