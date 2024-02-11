@@ -113,26 +113,26 @@ main {
     }
     
     main {
-        width: auto;
+        width: 100%;
         margin-bottom: 1rem;
         margin-left: 1rem;
     }
 
     .principal {
-        width: auto;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
     }
     
     .text-area {
-        width: auto;
+        width: 100%;
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin-right: 1rem;
     }
     
     .resultado {
-        width: auto;
+        width: 100%;
         margin-left: 1rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -140,7 +140,7 @@ main {
     }
 
     .btn {
-        width: auto;
+        width: 100%;
         margin-top: 1rem;
         margin-left: 2rem;
         margin-right: 2rem;
@@ -149,7 +149,7 @@ main {
     }
     
     .btn2 {
-        width: auto;
+        width: 100%;
         margin-top: 1rem;
         margin-left: 2rem;
         margin-right: 2rem;
