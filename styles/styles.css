@@ -36,7 +36,7 @@ main {
 
 .resultado {
     background: var(--cor-secundaria);
-    background-image: url(/assets/boneco.png);
+    background-image: url(/main/assets/boneco.png);
     background-position: center;
     background-repeat: no-repeat;
     border: 1px solid var(--cor-primaria);
