@@ -113,8 +113,7 @@ main {
     
     main {
         flex-direction: column;
-        padding: 0%;
-        margin: 2%;
+        margin: 1%;
     }
 
     .principal {
@@ -134,6 +133,6 @@ main {
     }
     
     .rodape {
-        width: none;
+        display: none;
     }
 }
