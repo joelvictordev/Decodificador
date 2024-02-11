@@ -119,10 +119,13 @@ main {
     }
 
     .principal {
-        width: 80%;
         margin: 1%;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .text-area {
+        width: 80%;
     }
     
     .resultado {
