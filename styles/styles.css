@@ -108,64 +108,32 @@ main {
 
 @media (max-width: 1000px) {
     .logo {
-        margin-left: 1rem;
-        padding-top: 1rem;
         width: 10%;
+        margin: 1%;
     }
     
     main {
-        width: 98%;
-        margin-bottom: 1rem;
-        margin-left: 1rem;
+        flex-direction: column;
+        padding: 0%;
+        margin: 2%;
     }
 
     .principal {
-        width: 98%;
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 2rem;
-    }
-    
-    .text-area {
         width: 90%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        margin-right: 1rem;
-    }
-
-    .informacao {
-        width: 10%;
-    }
+        flex-direction: column;
+        justify-content: center;}
     
     .resultado {
         width: 90%;
-        margin-left: 0;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-        margin-right: 1rem;
-    }
-
-    .btn {
-        width: 98%;
-        margin-top: 1rem;
-        margin-left: 0;
-        margin-right: 2rem;
-    }
-    
-    .btn2 {
-        width: 98%;
-        margin-top: 1rem;
-        margin-left: 0;
-        margin-right: 2rem;
+        margin: 5% 0% 0% 3%;
     }
 
     .btn-copiar {
-        width: 10rem;
-        margin-left: 2.2rem;
-        margin-right: 0;
+        margin: 1% 5% 5% 16%;
+        padding: 3% 15%;
     }
     
     .rodape {
-        width: auto;
+        width: 100%;
     }
 }
