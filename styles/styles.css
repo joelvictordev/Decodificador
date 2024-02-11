@@ -115,13 +115,14 @@ main {
         flex-direction: column;
         padding: 0%;
         margin: 2%;
-        font-size: xx-large;
     }
 
     .principal {
         width: 90%;
         flex-direction: column;
-        justify-content: center;}
+        justify-content: center;
+        font-size: xx-large;
+    }
     
     .resultado {
         width: 90%;
