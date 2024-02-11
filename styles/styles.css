@@ -119,14 +119,14 @@ main {
     }
 
     .principal {
-        width: 90%;
+        width: 80%;
         margin: 1%;
         flex-direction: column;
         justify-content: center;
     }
     
     .resultado {
-        width: 90%;
+        width: 80%;
         margin: 1%
     }
 
