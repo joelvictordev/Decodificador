@@ -111,7 +111,7 @@ main {
         margin: 1%;
     }
 
-    .main {
+    main {
         flex-direction: collum;
         justify-content: center;
     }
