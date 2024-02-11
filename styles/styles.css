@@ -127,15 +127,17 @@ main {
     
     .text-area {
         width: 90%;
-        height: 80%;
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin-right: 1rem;
     }
+
+    .informacao {
+        width: 10%;
+    }
     
     .resultado {
         width: 90%;
-        height: 35%;
         margin-left: 0;
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -157,6 +159,7 @@ main {
     }
 
     .btn-copiar {
+        width: 10rem;
         margin-left: 2.2rem;
         margin-right: 0;
     }
