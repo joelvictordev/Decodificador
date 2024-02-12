@@ -108,13 +108,44 @@ main {
 @media (max-width: 1000px) {
     .logo {
         width: 10%;
-        margin: 1%;
     }
 
     .principal {
-        width: 90%;
+        width: 80%;
         flex-direction: column;
-        justify-content: center;}
+        justify-content: center;
+        margin: 1%;
+    }
+
+    .text-area {
+        font-size: 200%;
+    }
+
+    .informacao {
+        font-size: 200%;
+    }
+
+    .btn-encriptar {
+        font-size: 150%;
+    }
+
+    .btn-desencriptar {
+        font-size: 150%;
+    }
+
+    .resultado {
+        width: 80%;
+        margin: 1%;
+        font-size: 200%;
+    }
+
+    .btn2 {
+        margin: 1%;
+    }
+
+    .btn-copiar {
+        font-size: 150%;
+    }
     
     .rodape {
         display: none;
