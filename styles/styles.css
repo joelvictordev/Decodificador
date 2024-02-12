@@ -108,7 +108,7 @@ main {
 @media (max-width: 1000px) {
     * {
         width: 70vw;
-        margin-left: 1%;
+        margin-left: 3%;
         margin-right: none;
     }
 
