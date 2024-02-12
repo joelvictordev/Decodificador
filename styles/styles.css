@@ -106,18 +106,25 @@ main {
 }
 
 @media (max-width: 1000px) {
+    * {
+        width: 100vw;
+        margin-left: 1%;
+        margin-right: none;
+    }
+
     .logo {
         width: 10%;
     }
 
     .principal {
-        width: 80%;
         flex-direction: column;
         justify-content: center;
         margin: 1%;
     }
 
     .text-area {
+        border: 1px solid var(--cor-primaria);
+        width: 80%;
         font-size: 200%;
     }
 
