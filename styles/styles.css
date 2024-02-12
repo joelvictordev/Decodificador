@@ -113,7 +113,7 @@ main {
     }
 
     .logo {
-        width: 100%;
+        width: 15%;
     }
 
     .principal {
@@ -124,6 +124,7 @@ main {
 
     .text-area {
         width: 95%;
+        height: 40vh;
         font-size: 200%;
     }
 
@@ -141,7 +142,8 @@ main {
 
     .resultado {
         width: 95%;
-        margin: 1%;
+        height: 40vh;
+        margin: 5% 1% 1% 1%;
         font-size: 200%;
     }
 
@@ -151,6 +153,7 @@ main {
 
     .btn-copiar {
         font-size: 150%;
+        margin-right: 20%;
     }
     
     .rodape {
