@@ -107,7 +107,7 @@ main {
 
 @media (max-width: 1000px) {
     * {
-        width: 60vw;
+        width: 70vw;
         margin-left: 1%;
         margin-right: none;
     }
@@ -123,7 +123,7 @@ main {
     }
 
     .text-area {
-        width: 90%;
+        width: 95%;
         font-size: 200%;
     }
 
@@ -140,7 +140,7 @@ main {
     }
 
     .resultado {
-        width: 90%;
+        width: 95%;
         margin: 1%;
         font-size: 200%;
     }
