@@ -123,6 +123,7 @@ main {
     }
 
     .text-area {
+        margin-top: 10%;
         width: 95%;
         height: 40vh;
         font-size: 200%;
