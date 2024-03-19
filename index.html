@@ -16,14 +16,14 @@
 
         <main  class="principal">
             <section>
-                <textarea class="principal__texto" placeholder="Digite seu texto"></textarea>
+                <textarea id="input-texto" class="principal__texto" placeholder="Digite seu texto"></textarea>
                 <div class="principal__informacao">
                     <p>Apenas letras minúsculas e sem acento.</p>
                 </div>
                 
                 <div class="botoes">
-                    <button class="botoes__encriptar">Criptografar</button>
-                    <button class="botoes__desencriptar">Descriptografar</button>
+                    <button  onclick="criptografar()" class="botoes__encriptar">Criptografar</button>
+                    <button  onclick="descriptografar()" class="botoes__desencriptar">Descriptografar</button>
                 </div>
             </section>
 
@@ -32,6 +32,7 @@
                     <img src="assets/boneco.png" alt="pessoa segurando um livro">
                     <h2>Sua mensagem aparecerá aqui!</h2>
                     <span>Digite um texto que deseja criptografar ou descriptografar</span>
+                    <button class="botoes__copiar" id="copiar" onclick="copiar()">Copiar</button>
                 </div>  
             </section>
         </main>

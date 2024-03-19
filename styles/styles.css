@@ -82,6 +82,18 @@ main {
     margin-top: 4%
 }
 
+.resultadoscript {
+    width: 28rem;
+    height: 25rem;
+    border: none;
+    color: var(--cor-primaria); 
+    margin-top: 5.65rem;
+    margin-bottom: 2.3rem;
+    text-transform: lowercase;
+    background: transparent;
+    box-shadow: none;
+}
+
 .botoes {
     display: flex;
     margin-top: 2.7rem;
@@ -132,7 +144,7 @@ main {
     cursor: pointer;
     height: 4.2rem;
     margin-left: 15rem;
-    width: 20.5rem;
+    width: 15rem;
 }
 
 .botoes__copiar:hover {

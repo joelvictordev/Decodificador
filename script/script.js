@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Decodificador de Texto</title>
-    </head>
-    <body>
-        
-    </body>
-</html>
+var textInput = document.querySelector("#input-texto");
+var outInput = document.querySelector("#resultado");
+
+function criptografar() {
+    var texto = textInput.value;
+
+    var resultCripto = texto.replace(/a/g, "ai").replace(/e/g, "enter").replace(/i/g, "imes").replace(/o/g, "ober").replace(/u/g, "ufat");
+
+    document.getElementById('resultado').innerHTML = '<textarea class="resultadoscript" readonly id="input-texto">' + resultCripto + '</textarea>' + '<button class="botoes__copiar" id="copiar" onclick="copiar()">Copiar</button>';
+}
+
+function descriptografar() {
+    var texto = textInput.value;
+
+    var resultDescripto = texto.replace(/ai/g, "a").replace(/enter/g, "e").replace(/imes/g, "i").replace(/ober/g, "o").replace(/ufat/g, "u");
+
+    document.getElementById('resultado').innerHTML = '<textarea class="resultadoscript" readonly id="input-texto">' + resultDescripto + '</textarea>' + '<button class="botoes__copiar" id="copiar" onclick="copiar()">Copiar</button>';
+}
+
+function copiar() {
+    var textoCop = document.getElementById('resultado').querySelector('textarea');
+  
+    textoCop.select();
+    document.execCommand('copy');
+    alert("Texto copiado.");
+} 
