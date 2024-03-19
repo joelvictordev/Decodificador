@@ -52,6 +52,7 @@ main {
     }
 
 #resultado {
+    margin-top: 5rem;
     margin-left: 10rem;
     align-items: center;
     display: flex;
