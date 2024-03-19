@@ -5,40 +5,42 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
         <title>Decodificador</title>
     </head>
     <body>
-        <header>
-            <img class="logo" src="assets/logo.png" alt="Logo da Alura">
+        <header class="cabecalho">
+            <img class="cabecalho__logo" src="assets/logo.png" alt="Logo do decodificador">
+            <h1 class="cabecalho__titulo">Decodificador de texto</h1>
         </header>
 
         <main  class="principal">
             <section>
-                <textarea class="text-area" cols="90" rows="20" placeholder="Digite seu texto"></textarea>
-
-                <div class="informacao">
-                    <img>
-                    <h6>Apenas letras minúsculas e sem acento.</h6>
+                <textarea class="principal__texto" placeholder="Digite seu texto"></textarea>
+                <div class="principal__informacao">
+                    <p>Apenas letras minúsculas e sem acento.</p>
                 </div>
                 
-                <div class="btn">
-                    <button class="btn-encriptar">Criptografar</button>
-                    <button class="btn-desencriptar">Descriptografar</button>
+                <div class="botoes">
+                    <button class="botoes__encriptar">Criptografar</button>
+                    <button class="botoes__desencriptar">Descriptografar</button>
                 </div>
             </section>
 
             <section>
-                <textarea class="resultado" cols="45" rows="28"></textarea>
-
-                <div class="btn2">
-                    <button class="btn-copiar">Copiar</button>
-                </div>
-                
+                <div id="resultado">
+                    <img src="/assets/boneco.png" alt="detetive pikachu">
+                    <h2>Sua mensagem aparecerá aqui!</h2>
+                    <span>Digite um texto que deseja criptografar ou descriptografar</span>
+                </div>  
             </section>
         </main>
 
         <footer class="rodape">
-            <a class="rodape-text" href="https://github.com/joelvictordev">Desenvolvido por Joel</a>
+            <a class="rodape__texto" href="https://github.com/joelvictordev"><ion-icon name="logo-github"></ion-icon>Desenvolvido por Joel</a>
         </footer>
+
+        <script src="script/script.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </body>
 </html>
